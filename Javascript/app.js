@@ -346,9 +346,124 @@
 //     "</table>"
 // );
 
-                    // ******************************chapter 6-8************************
+                    // ******************************chapter 17-20************************
 
 //task 1
+//var arr = [[],[]];
 
+//task 2
+//  var arr=[
+//     [0,1,2,3],
+//     [1,0,1,2],
+//     [2,1,0,1]
+// ];
+// console.table(arr);
+
+//task 3
+// for(var i=1; i<=10;i++){
+//     document.write(i+"<br>");
+// }
+
+//task 4
+// var table= +prompt("Table of: ");
+// var count= +prompt("Length of table: ");
+// document.write("Table of "+table+"<br>");
+// document.write("Length "+count+"<br><br>");
+// for(var i=1; i<=count; i++){
+//     document.write(table+" x "+i+" = "+table*i+"<br>");
+// }
+
+//task 5
+// var fruits=["apple", "banana", "mango", "orange", "strawberry" ];
+// for(var i=0; i<fruits.length; i++){
+//     document.write(fruits[i]+"<br>");
+// }
+// document.write("<br>");
+// for(var i=0; i<fruits.length; i++){
+//     document.write("Element at index "+i+" is "+fruits[i]+"<br>");
+// }
+
+//task 6
+// document.write("<h1>Counting</h1><br>");
+// for(var i=1; i<=15; i++){
+//     document.write(i+",");
+// }
+// document.write("<h1>Reverse Counting</h1><br>");
+// for(var i=10; i>=1; i--){
+//     document.write(i+",");
+// }
+// document.write("<h1>Even</h1><br>");
+// for(var i=0; i<=20; i++){
+//     if(i%2===0){
+//         document.write(i+",");
+//     }
+// }
+// document.write("<h1>Odd</h1><br>");
+// for(var i=0; i<=20; i++){
+//     if(i%2!==0){
+//         document.write(i+",");
+//     }
+// }
+// document.write("<h1>Series</h1><br>");
+// for(var i=1; i<=20; i++){
+//     if(i%2===0){
+//         document.write(i+"k,");
+//     }
+// }
+
+//task 7
+// var items=["cake", "apple pie", "cookie", "chips","patties"];
+// var found=false;
+// var index;
+// var userItem=prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
+// for(var i=0; i<items.length; i++){
+//     if(userItem===items[i]){
+//         found=true;
+//         index=i;
+//     }
+// }
+// if(found){
+//     document.write(userItem+" is available at index "+index+" in our bakery");
+// }
+// else{
+//     document.write("We are sorry. "+userItem+" is not available in our bakery");
+// }
+
+//task 8
+// var arr=[24,53,78,91,12];
+// var num=arr[0];
+// for(var i=1; i<arr.length; i++){
+//     if(arr[i]>num){
+//         num=arr[i];
+//     }
+   
+// }
+// document.write("Array Items: ");
+// for(var j=0; j<arr.length;j++){
+//         document.write(arr[j]+", ");
+// }
+// document.write("<br>The Largest number is "+num);
+
+//task 9
+// var arr=[24,53,78,91,12];
+// var num=arr[0];
+// for(var i=1; i<arr.length; i++){
+//     if(arr[i]<num){
+//         num=arr[i];
+//     }
+   
+// }
+// document.write("Array Items: ");
+// for(var j=0; j<arr.length;j++){
+//         document.write(arr[j]+", ");
+// }
+// document.write("<br>The smallest number is "+num);
+
+//task 10
+// for(var i=1; i<=100; i++){
+//     if(i%5===0){
+//         document.write(i+", ");
+//     }
+// }
 
 
