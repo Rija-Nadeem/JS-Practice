@@ -244,3 +244,111 @@
 // document.write("You will need "+needed+" "+snack+" to last until the ripe old age of "+E_age+"<br>");
 
 
+                                // ****************chapter 6-8*****************
+
+
+//task1
+// var num=+prompt("Enter a number");
+// document.write("<h1>RESULT</h1><br>");
+// document.write("The value of a is: "+num+"<br>");
+// document.write("***********************************<br>");
+// document.write("The value of ++a is: "+ ++num +"<br>");
+// document.write("The value of a is: "+num+"<br><br>");
+// document.write("The value of a++ is: "+ num++ +"<br>");
+// document.write("The value of a is: "+num+"<br><br>");
+// document.write("The value of --a is: "+ --num +"<br>");
+// document.write("The value of a is: "+num+"<br><br>");
+// document.write("The value of a-- is: "+ num-- +"<br>");
+// document.write("The value of a is: "+num+"<br>");
+
+//task 2
+// var a = 2, b = 1;
+// var result = --a - --b + ++b + b--;
+//             // 1   -  0  +  1  + 1 = 3
+//              //a will be decrement and value will go in a so a=1, 
+//              //b will be decrement and value will go in b so b=0,
+//              //b will be increment and value will go in b so b=1,
+//              // value of b will remain same but then it will be decresed by 1. so b=1 at this stage but after execution of this statement it will be 0
+//             // a=1 b=0 
+// console.log(a,b,result);
+
+//task 3
+// var name=prompt("Enter your name");
+// document.write("Welcome, "+name);
+
+//task 4 question is not written
+
+//task 5                (confusion)
+// var table= +prompt("Table of?");
+// if(table){
+//     document.write("Table of "+table+"<br>");
+//     for(var i=1; i<=10; i++){
+//         document.write(table+" x "+i+" = "+table*i+"<br>");
+//     }
+// }
+// else{
+//     table=5;
+//     document.write("Table of "+table+" (default)<br>");
+//     for(var i=1; i<=10; i++){
+//         document.write(table+" x "+i+" = "+table*i+"<br>");
+//     }
+// }
+
+//task 6
+// var sub1= prompt("Enter first subject ");
+// var sub2= prompt("Enter second subject ");
+// var sub3= prompt("Enter third subject ");
+// var total_marks=100;
+// var marks1= +prompt("Enter marks for first subject ");
+// var marks2= +prompt("Enter marks for second subject ");
+// var marks3= +prompt("Enter marks for third subject ");
+// var final_total_marks = total_marks + total_marks + total_marks;
+// var final_marks = marks1 + marks2 + marks3;
+// function percentage(obtained,total){
+//     return (obtained/total)*total_marks;
+// }
+// var percentage1=percentage(marks1,total_marks);
+// var percentage2=percentage(marks2,total_marks);
+// var percentage3=percentage(marks3,total_marks);
+// var total_percentage=percentage(final_marks,final_total_marks);
+// document.write(
+//     "<table>"+
+//         "<tr>"+
+//             "<th>Subject</th>"+
+//             "<th>Total marks</th>"+
+//             "<th>Obtained marks</th>"+
+//             "<th>Percentage</th>"+
+//         "</tr>"+
+//         "<tr>"+
+//             "<td>"+sub1+"</td>"+
+//             "<td>"+total_marks+"</td>"+
+//             "<td>"+marks1+"</td>"+
+//             "<td>"+percentage1+"&#37;</td>"+
+//         "</tr>"+
+//         "<tr>"+
+//             "<td>"+sub2+"</td>"+
+//             "<td>"+total_marks+"</td>"+
+//             "<td>"+marks2+"</td>"+
+//             "<td>"+percentage2+"&#37;</td>"+
+//         "</tr>"+
+//         "<tr>"+
+//             "<td>"+sub3+"</td>"+
+//             "<td>"+total_marks+"</td>"+
+//             "<td>"+marks3+"</td>"+
+//             "<td>"+percentage3+"&#37;</td>"+
+//         "</tr>"+
+//         "<tr>"+
+//             "<td></td>"+
+//             "<td>"+final_total_marks+"</td>"+
+//             "<td>"+final_marks+"</td>"+
+//             "<td>"+total_percentage+"&#37;</td>"+
+//         "</tr>"+
+//     "</table>"
+// );
+
+                    // ******************************chapter 6-8************************
+
+//task 1
+
+
+
