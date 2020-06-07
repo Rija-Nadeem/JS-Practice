@@ -467,3 +467,287 @@
 // }
 
 
+            //************* chapter 9-11 *******************
+
+// task 1
+// var city=prompt("enter city");
+// if(city=='karachi'){
+//     alert("welcome to the city of lights")
+// }
+
+// task 2
+// var gender=prompt("enter your gender");
+// if(gender=="male"){
+//     alert("Good Morning Sir")
+// }
+// else if(gender=="female"){
+
+//     alert("Good Morning Ma'am")
+// }
+
+// task 3
+// var color=prompt("enter signal color");
+// if(color=='red'){
+// alert('Must stop')
+// }
+// else if (color=='yellow'){
+//     alert('Ready to move')
+// }
+// else if (color=='green'){
+//     alert('Move now')
+// }
+
+// task 4
+// var liters=+prompt("enter remianing liters");
+// if(liters<0.25){
+//     alert("Please refill the fuel in your car")
+// }
+
+// task 5
+// var a = 4;
+// if (++a === 5){
+// alert("given condition for variable a is true");
+// }          //output: alert showing given condition for variable a is true
+
+// var b = 82;
+// if (b++ === 83){
+// alert("given condition for variable b is true");
+// }               //output: no alert is shown
+
+//  var c = 12;
+// if (c++ === 13){
+// alert("condition 1 is true");
+// }
+// if (c === 13){
+// alert("condition 2 is true");
+// }
+// if (++c < 14){
+// alert("condition 3 is true");
+// }
+// if(c === 14){
+// alert("condition 4 is true");
+// }   //output: 2nd alert showing condition 2 is true and 4th alert is showing condition 4 is true
+
+// var materialCost = 20000;
+// var laborCost = 2000;
+// var totalCost = materialCost + laborCost;
+// if (totalCost === laborCost + materialCost){
+// alert("The cost equals");
+// }    //output: alert showing the cost equals
+
+// if (true){
+//     alert("True");
+//     }
+//     if (false){
+//     alert("False");
+//     }   //output: alert showing true
+
+// if("car" < "cat"){
+//     alert("car is smaller than cat");
+//     }     //output: alert showinng car is smaller than cat
+
+// task 6
+// var sub1=+prompt("enter 1st marks");
+// var sub2=+prompt("enter 2nd marks");
+// var sub3=+prompt("enter 3rd marks");
+// var totalMarks=+prompt("enter total marks");
+// var obtainedMarks=sub1+sub2+sub3;
+// var per=(obtainedMarks/totalMarks)*100;
+// var grade, remarks;
+// if(per>=80){
+// grade="A-one";
+// remarks="Excellent"
+// }
+// else if(per>=70){
+//     grade="A";
+//     remarks="Good";
+// }
+// else if(per>=60){
+//     grade="B";
+//     remarks="You need to improve";
+// }
+// else if(per<60){
+//     grade="Fail";
+//     remarks="Sorry";
+// }
+// document.write("<h1>Marks Sheet</h1><br><br>");
+// document.write("Total marks : "+totalMarks+"<br>");
+// document.write("Marks Obtained : "+obtainedMarks+"<br>");
+// document.write("Percentage : "+per+"<br>");
+// document.write("Grade : "+grade+"%<br>");
+// document.write("Remarks : "+remarks+"<br>");
+
+// task 7
+// var num=+prompt("guess the number between 1- 10");
+// var snum=9;
+// if(num==snum){
+//     alert("Bingo! Correct Answer")
+// }
+// if(num==++snum)
+// {
+//     alert("Close enough to the correct answer")
+// }
+
+// task 8
+// var num=+prompt("enter num");
+// if(num%3==0){
+//     alert(num+" is divisible by 3");
+// }
+// else{
+//     alert(num+" is not divisible by 3 ");
+// }
+
+
+// task 9
+// var num=+prompt("enter num");
+// if(num%2==0){
+//     alert(num+" is even number")
+// }
+// else{
+//     alert(num+" is odd number")
+// }
+
+// task 10
+// var T=+prompt("enter temperature");
+// if(T>40){
+//     alert("It is too hot outside")
+// }
+// else if(T>30){
+//     alert("The Weather today is Normal.")
+// }
+// else if(T>20){
+//     alert("Today’s Weather is cool.")
+// }else if(T>10){
+//     alert("“OMG! Today’s weather is so Cool.")
+// }
+
+// task 11
+// var n1=+prompt("enter 1st number");
+// var n2=+prompt("enter 2nd number");
+// var ope=prompt("enter operator");
+// if(ope=='+'){
+//     alert(n1+" + "+n2+" =  "+(n1+n2))
+// }
+// else if(ope=='-'){
+//     alert(n1+" - "+n2+" =  "+(n1-n2))
+// }
+// else if(ope=='*'){
+//     alert(n1+" * "+n2+" =  "+(n1*n2))
+// }
+// else if(ope=='/'){
+//     alert(n1+" / "+n2+" =  "+(n1/n2))
+// }
+
+
+
+
+                        //*********chapter 12-13 ******************
+
+//task 1
+// var a=prompt("Enter a character");
+// var b=a.charCodeAt(0);
+// if(b>=65&&b<=90)
+// {
+//     alert("Uppercase letter")
+// }
+// else if(b>=97&&b<=127){
+
+//     alert("lowercase letter")
+// }
+// else if(b>=48&&b<=57){
+//     alert("number")
+// }
+// else{
+//     alert("other than a number and letter");
+// }
+
+//  task 2
+// var a=+prompt("Enter 1st number");
+// var b=+prompt("Enter 2nd number");
+
+// if(a>b){
+//     alert(a + ' is greater')
+// }
+// else if(b>a){
+//     alert(b+ ' is greater')
+// }
+// else if(a==b){
+//     alert("both are equal")
+// }
+
+//  task 3
+// var a=+prompt("Enter number");
+
+// if(a>0){
+//     alert("Positive Number")
+// }
+// else if(a<0){
+//     alert("Negative Number")
+// }
+// else{
+//     alert("Number is 0")
+// }
+
+//  task 4
+// var letter=prompt("Enter letter");
+// if(letter==='a'||letter==='e'||letter==='i'||letter==='o'||letter==='u'){
+//     alert("true");
+// }
+// else{
+//     alert('false');
+// }
+
+//  task 5
+// var pass="mypassword";
+// var userpass=prompt("Enter password");
+
+// if(userpass==''){
+//     alert('Please enter your password');
+// }
+// else if(pass===userpass){
+//     alert('Correct! The password you entered matches the original password');
+// }
+// else{
+//     alert('Incorrect password');
+// }
+
+// chpater 8 task 6
+// var greeting;
+// var hour = 13;
+// if(hour < 18) {
+// greeting = "Good day";
+// }
+// else{
+// greeting = "Good evening";
+// }
+
+//  task 7
+// var time=+prompt("Enter a time in 24-hr formate");
+// if(time==24){
+//     time=0;
+// }
+// var AmOrPm = time >= 12 ? 'pm' : 'am';
+// formatedTime= time%12;
+// if(time==0||time==12||time==24){
+//     formatedTime=formatedTime+12;
+//     alert("time is "+formatedTime+AmOrPm+" in 12-hr formate");
+// }
+// else{
+//     alert("time is "+formatedTime+AmOrPm+" in 12-hr formate");
+// }
+//  //for greeting
+// if(time>=0&&time<12){
+//     alert("Good morning");
+// }
+// else if(time>=12&&time<17){
+//     alert("Good afternoon");
+// }
+// else if(time>=17&&time<21){
+//     alert("Good evening");
+// }
+// else if(time>=21&&time<=24){
+//     alert("Good night");
+// }
+
+
+                //***********chapter 14-16********************
